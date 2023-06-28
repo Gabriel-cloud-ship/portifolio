@@ -1,0 +1,1 @@
+This portifólio talks about me, my stacks and my goals
