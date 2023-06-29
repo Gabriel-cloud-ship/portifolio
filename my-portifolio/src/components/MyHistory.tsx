@@ -1,8 +1,9 @@
 import "../styles/MyHistory.css";
 import ImageMyHistory from "./ImageMyHistory";
 
-import logoUnicamp from "../assets/imgs/logo-unicamp-black.png";
-import logoIFSP from "../assets/imgs/logo-ifsp.png";
+import enterprise from "../assets/icons/material-symbols_home-work-outline.svg";
+import science from "../assets/icons/fluent-mdl2_test-step.svg";
+import stack from "../assets/icons/bi_stack.svg";
 import myPhoto from "../assets/imgs/57291352.jpg";
 
 function MyHistory() {
@@ -14,8 +15,9 @@ function MyHistory() {
                     <p>Text</p>
                 </div>
                 <div className="picture-me">
-                    <ImageMyHistory classCustom="unicamp" src={logoUnicamp} />
-                    <ImageMyHistory classCustom="ifsp" src={logoIFSP} />
+                    <ImageMyHistory classCustom="enterprise" src={enterprise} />
+                    <ImageMyHistory classCustom="science" src={science} />
+                    <ImageMyHistory classCustom="stack" src={stack} />
                     <ImageMyHistory classCustom="picture" src={myPhoto} />
                 </div>
             </div>

@@ -1,15 +1,15 @@
 div.img-history {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
-    background: rgb(217, 207, 207);
+    background: white;
     border-radius: 50%;
     border: 10px solid white;
-    box-shadow: inset 0 0 4px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 4px 4px rgba(0, 0, 0, 0.01), 0 0 4px 4px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
 
@@ -24,28 +24,37 @@ div.img-history.picture {
     height: 400px;
 
     position: absolute;
-    bottom: 10px;
-    left: -10px;
+    bottom: 15%;
+    left: -35%;
     animation: poping-img 3s ease-in-out;
 }
 
-div.img-history.unicamp {
+div.img-history.stack {
     position: absolute;
-    top: 20px;
-    right: 35%;
+    top: 20%;
+    right: 40%;
 
-    padding: 10px;
+    padding: 25px;
 
     animation: poping-little-img 2s ease-in-out;
 }
 
-div.img-history.ifsp {
+div.img-history.science {
     position: absolute;
-    top: 80px;
-    right: 5%;
+    top: 45%;
+    right: 25%;
 
-    padding: 20px;
-    background: white;
+    padding: 25px;
+
+    animation: poping-little-img 1s ease-in-out;
+}
+
+div.img-history.enterprise {
+    position: absolute;
+    top: 72%;
+    right: 35%;
+
+    padding: 25px;
 
     animation: poping-little-img 1s ease-in-out;
 }

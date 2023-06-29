@@ -48,7 +48,10 @@ article.my-history div.about-me p {
 }
 
 article.my-history div.picture-me {
-    width: 100%;
-    height: 70vh;
+    width: 70%;
+    height: 100vh;
+    margin-top: -100px;
+    margin-right: -50px;
     position: relative;
+    background: white;
 }
