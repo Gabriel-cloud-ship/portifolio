@@ -1,0 +1,81 @@
+div.img-history {
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(217, 207, 207);
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: inset 0 0 4px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+div.img-history img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+div.img-history.picture {
+    width: 400px;
+    height: 400px;
+
+    position: absolute;
+    bottom: 10px;
+    left: -10px;
+    animation: poping-img 3s ease-in-out;
+}
+
+div.img-history.unicamp {
+    position: absolute;
+    top: 20px;
+    right: 35%;
+
+    padding: 10px;
+
+    animation: poping-little-img 2s ease-in-out;
+}
+
+div.img-history.ifsp {
+    position: absolute;
+    top: 80px;
+    right: 5%;
+
+    padding: 20px;
+    background: white;
+
+    animation: poping-little-img 1s ease-in-out;
+}
+
+@keyframes poping-img {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(0.95);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    80% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes poping-little-img {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

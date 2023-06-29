@@ -1,0 +1,22 @@
+section.navigation-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 15px 30px;
+
+    position: absolute;
+    top: 0;
+}
+
+section.navigation-bar div.topics {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+section.navigation-bar div.topics a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}

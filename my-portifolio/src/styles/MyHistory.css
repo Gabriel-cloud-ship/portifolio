@@ -1,0 +1,54 @@
+article.my-history {
+    height: 100%;
+    background: linear-gradient(154deg, #000F2C 22.54%, rgba(0, 15, 44, 0.57) 100%);
+
+    padding: 100px 50px 0;
+}
+
+article.my-history div.my-history-container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+
+    position: relative;
+}
+
+article.my-history div.about-me {
+    position: relative;
+    width: 100%;
+
+    padding: 30px 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+article.my-history div.about-me h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+article.my-history div.about-me p {
+    padding-left: 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    animation: appering-text 2s ease-in-out;
+}
+
+@keyframes appering-text {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+article.my-history div.picture-me {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
