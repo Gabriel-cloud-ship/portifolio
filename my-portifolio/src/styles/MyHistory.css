@@ -1,0 +1,90 @@
+article.my-history {
+    height: 100%;
+    background: linear-gradient(154deg, #000F2C 22.54%, rgba(0, 15, 44, 0.57) 100%);
+
+    padding: 100px 50px 0;
+
+    animation: change-color 1s ease-in-out;
+    position: relative;
+}
+
+@keyframes change-color {
+    0% {
+        bottom: -100vh;
+    }
+    100% {
+        bottom: 0;
+    }
+}
+
+article.my-history div.my-history-container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+
+    position: relative;
+}
+
+article.my-history div.about-me {
+    position: relative;
+    width: 100%;
+
+    padding: 30px 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+    animation: show-up-text 0.9s ease-out;
+}
+
+article.my-history div.about-me h1 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+article.my-history div.about-me p {
+    padding-left: 50px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    animation: appering-text 2s ease-in-out;
+}
+
+@keyframes show-up-text {
+    0% {
+        left: -100vw;
+    } 
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes appering-text {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+article.my-history div.picture-me {
+    width: 70%;
+    height: 100vh;
+    margin-top: -100px;
+    margin-right: -50px;
+    position: relative;
+    background: white;
+    animation: up-pictures 1.2s ease-out;
+}
+
+@keyframes up-pictures {
+    0% {
+        bottom: -100vh;
+    }
+    100% {
+        bottom: 0;
+    }
+}

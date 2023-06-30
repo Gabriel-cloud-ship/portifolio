@@ -1,0 +1,42 @@
+main.carrousel {
+    position: relative;
+}
+
+main.carrousel section.content {
+    min-height: 100vh;
+}
+
+main.carrousel div.carrousel-actions {
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+main.carrousel div.carrousel-actions button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background: #FFEFEF;
+    cursor: pointer;
+}
+
+main.carrousel div.carrousel-actions button:hover {
+    background: #eee0e0;
+}
+
+main.carrousel div.carrousel-actions button img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    opacity: 0.6;
+}

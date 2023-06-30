@@ -1,0 +1,74 @@
+section.navigation-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 15px 30px;
+
+    position: absolute;
+    top: 0;
+
+    z-index: 1000;
+}
+
+section.navigation-bar article {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+section.navigation-bar article div.image-me {
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 9999px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+section.navigation-bar article div.image-me img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+section.navigation-bar div.topics {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+section.navigation-bar div.topics a {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section.navigation-bar aside.my-info {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+section.navigation-bar aside.my-info h1 { 
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+section.navigation-bar aside.my-info div.icons {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+section.navigation-bar aside.my-info div.icons a {
+    height: 40px;
+    width: 40px;
+}
+
+section.navigation-bar aside.my-info div.icons a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
