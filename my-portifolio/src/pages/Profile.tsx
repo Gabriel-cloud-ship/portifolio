@@ -1,3 +1,4 @@
+import Carrousel from "../components/Carrousel";
 import MyHistory from "../components/MyHistory";
 import NavigationTab from "../components/NavigationTab";
 import "../styles/Profile.css";
@@ -7,7 +8,7 @@ function Profile() {
         <main>
             <section className="carroulsel-container">
                 <NavigationTab />
-                <MyHistory />
+                <Carrousel items={[<MyHistory />, <></>]} />
             </section>
         </main>
     );

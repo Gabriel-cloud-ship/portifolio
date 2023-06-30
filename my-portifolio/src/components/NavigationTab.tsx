@@ -1,7 +1,7 @@
 import "../styles/NavigationTab.css";
 
 import myPhoto from "../assets/imgs/57291352.jpg";
-import resumeIcon from "../assets/icons/material-symbols_work-update.svg";
+import resumeIcon from "../assets/icons/mingcute_paper-fill.svg";
 import linkedinIcon from "../assets/icons/mdi_linkedin.svg";
 import githubIcon from "../assets/icons/mdi_github.svg";
 
